@@ -1,0 +1,16 @@
+{
+ "conditions": [{
+  "type": "forge:mod_loaded",
+  "modid": "simpleores"
+  }],
+  "type": "alloyssmelter:alloying",
+  "ingredient_0": {
+    "tag": "forge:ingots/mythril"
+  },
+  "ingredient_1": {
+    "tag": "forge:ingots/iron"
+  },
+  "result": "alloyssmelter:ferrthril_ingot",
+  "experience": 0.25,
+  "cookingtime": 250
+}

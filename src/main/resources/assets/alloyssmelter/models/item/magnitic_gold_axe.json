@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "alloyssmelter:item/magnitic_gold_axe"
+  }
+}

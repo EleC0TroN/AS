@@ -1,0 +1,23 @@
+{
+ "conditions": [{
+   "type": "forge:and",
+   "values": [
+    {
+     "type": "forge:mod_loaded",
+     "modid": "simpleores"
+    },
+    {
+     "type": "forge:mod_loaded",
+     "modid": "endreborn"
+   }]}],
+  "type": "alloyssmelter:alloying",
+  "ingredient_0": {
+    "tag": "forge:ingots/adamantium"
+  },
+  "ingredient_1": {
+    "tag": "forge:ingots/tungsten"
+  },
+  "result": "alloyssmelter:tungstantium_ingot",
+  "experience": 0.45,
+  "cookingtime": 350
+}

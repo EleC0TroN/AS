@@ -1,0 +1,30 @@
+{
+ "conditions": [{
+   "type": "forge:and",
+   "values": [
+    {
+     "type": "forge:mod_loaded",
+     "modid": "simpleores"
+    },
+    {
+     "type": "forge:mod_loaded",
+     "modid": "endreborn"
+   }]}],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "@",
+    "@"
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "alloyssmelter:tungstantium_ingot"
+    }
+  },
+  "result": {
+    "item": "alloyssmelter:tungstantium_shovel"
+  }
+}

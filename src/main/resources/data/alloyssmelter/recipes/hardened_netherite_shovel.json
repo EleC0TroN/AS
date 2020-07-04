@@ -1,0 +1,23 @@
+{
+  "conditions": [{
+  "type": "forge:mod_loaded",
+  "modid": "endreborn"
+  }],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "@",
+    "@"
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "alloyssmelter:hardened_netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "alloyssmelter:hardened_netherite_shovel"
+  }
+}

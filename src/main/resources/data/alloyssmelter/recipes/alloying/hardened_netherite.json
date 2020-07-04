@@ -1,0 +1,16 @@
+{
+  "conditions": [{
+  "type": "forge:mod_loaded",
+  "modid": "endreborn"
+  }],
+  "type": "alloyssmelter:alloying",
+  "ingredient_0": {
+    "tag": "forge:ingots/tungsten"
+  },
+  "ingredient_1": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": "alloyssmelter:hardened_netherite_ingot",
+  "experience": 0.35,
+  "cookingtime": 350
+}

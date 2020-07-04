@@ -1,0 +1,16 @@
+{
+  "conditions": [{
+  "type": "forge:mod_loaded",
+  "modid": "endreborn"
+  }],
+  "type": "alloyssmelter:alloying",
+  "ingredient_0": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "ingredient_1": {
+    "tag": "forge:ingots/endorium"
+  },
+  "result": "alloyssmelter:netherendium_ingot",
+  "experience": 0.50,
+  "cookingtime": 400
+}

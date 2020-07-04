@@ -1,0 +1,12 @@
+{
+  "type": "alloyssmelter:alloying",
+  "ingredient_0": {
+    "tag": "forge:ingots/gold"
+  },
+  "ingredient_1": {
+    "tag": "forge:ingots/iron"
+  },
+  "result": "alloyssmelter:magnitic_gold_ingot",
+  "experience": 0.10,
+  "cookingtime": 100
+}

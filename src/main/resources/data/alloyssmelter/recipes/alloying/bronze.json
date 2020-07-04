@@ -1,0 +1,23 @@
+{
+ "conditions": [{
+  "type": "forge:or",
+  "values": [
+   {
+    "type": "forge:mod_loaded",
+    "modid": "simpleores"
+   },
+   {
+    "type": "forge:mod_loaded",
+    "modid": "bno"
+   }]}],
+  "type": "alloyssmelter:alloying",
+  "ingredient_0": {
+    "tag": "forge:ingots/copper"
+  },
+  "ingredient_1": {
+    "tag": "forge:ingots/tin"
+  },
+  "result": "alloyssmelter:bronze_ingot",
+  "experience": 0.15,
+  "cookingtime": 100
+}
