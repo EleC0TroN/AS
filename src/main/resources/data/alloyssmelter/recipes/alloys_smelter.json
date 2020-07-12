@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "@@@",
+    "@1@",
+    "@#@"
+  ],
+  "key": {
+    "@": {
+      "item": "minecraft:obsidian"
+    },
+    "1": {
+      "item": "minecraft:furnace"
+    },
+    "#": {
+      "item": "alloyssmelter:melting_core"
+    }
+  },
+  "result": {
+    "item": "alloyssmelter:alloys_smelter"
+  }
+}

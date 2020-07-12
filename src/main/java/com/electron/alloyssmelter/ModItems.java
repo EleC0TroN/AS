@@ -40,28 +40,28 @@ public class ModItems {
     public static final PickaxeItem HARDENED_NETHERITE_PICKAXE = new PickaxeItem(ModMaterials.HARDENED_NETHERITE, 1, -2.8f, new Item.Properties().group(AlloysSmelter.ALLOYS));
 
     public static final Item MAGNITIC_GOLD_INGOT = new AlloysIngotItem(new Item.Properties().group(AlloysSmelter.ALLOYS), 0);
-    public static final Item MAGNITIC_GOLD_SWORD = new AlloysSwordItem(ModMaterials.MAGNITIC_GOLD, 4, -2.0f, 0, new Item.Properties().group(AlloysSmelter.ALLOYS));
+    public static final Item MAGNITIC_GOLD_SWORD = new AlloysSwordItem(ModMaterials.MAGNITIC_GOLD, 4, -2.4f, 0, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final AxeItem MAGNITIC_GOLD_AXE = new AxeItem(ModMaterials.MAGNITIC_GOLD, 6f, -3.1f, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final ShovelItem MAGNITIC_GOLD_SHOVEL = new ShovelItem(ModMaterials.MAGNITIC_GOLD, 1.5f, -3f, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final HoeItem MAGNITIC_GOLD_HOE = new HoeItem(ModMaterials.MAGNITIC_GOLD,0, 0.0F, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final PickaxeItem MAGNITIC_GOLD_PICKAXE = new PickaxeItem(ModMaterials.MAGNITIC_GOLD, 1, -2.8f, new Item.Properties().group(AlloysSmelter.ALLOYS));
 
     public static final Item NETHERENDIUM_INGOT = new AlloysIngotItem(new Item.Properties().group(AlloysSmelter.ALLOYS), 3);
-    public static final Item NETHERENDIUM_SWORD = new AlloysSwordItem(ModMaterials.NETHERENDIUM, 3, -2.4f, 0, new Item.Properties().group(AlloysSmelter.ALLOYS));
+    public static final Item NETHERENDIUM_SWORD = new AlloysSwordItem(ModMaterials.NETHERENDIUM, 3, -3.0f, 0, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final AxeItem NETHERENDIUM_AXE = new AxeItem(ModMaterials.NETHERENDIUM, 6f, -3.1f, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final ShovelItem NETHERENDIUM_SHOVEL = new ShovelItem(ModMaterials.NETHERENDIUM, 1.5f, -3f, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final HoeItem NETHERENDIUM_HOE = new HoeItem(ModMaterials.NETHERENDIUM,-4, -2.5F, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final PickaxeItem NETHERENDIUM_PICKAXE = new PickaxeItem(ModMaterials.NETHERENDIUM, 1, -2.8f, new Item.Properties().group(AlloysSmelter.ALLOYS));
 
     public static final Item ROSE_GOLD_INGOT = new AlloysIngotItem(new Item.Properties().group(AlloysSmelter.ALLOYS), 1);
-    public static final Item ROSE_GOLD_SWORD = new AlloysSwordItem(ModMaterials.ROSE_GOLD, 4, -2.0f, 10, new Item.Properties().group(AlloysSmelter.ALLOYS));
+    public static final Item ROSE_GOLD_SWORD = new AlloysSwordItem(ModMaterials.ROSE_GOLD, 4, -2.4f, 10, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final AxeItem ROSE_GOLD_AXE = new AxeItem(ModMaterials.ROSE_GOLD, 6f, -3.1f, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final ShovelItem ROSE_GOLD_SHOVEL = new ShovelItem(ModMaterials.ROSE_GOLD, 1.5f, -3f, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final HoeItem ROSE_GOLD_HOE = new HoeItem(ModMaterials.ROSE_GOLD,0,0.0F, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final PickaxeItem ROSE_GOLD_PICKAXE = new PickaxeItem(ModMaterials.ROSE_GOLD, 1, -2.8f, new Item.Properties().group(AlloysSmelter.ALLOYS));
 
     public static final Item TUNGSTANTIUM_INGOT = new AlloysIngotItem(new Item.Properties().group(AlloysSmelter.ALLOYS), 2);
-    public static final Item TUNGSTANTIUM_SWORD = new AlloysSwordItem(ModMaterials.TUNGSTANTIUM, 3, -2.0f, 5, new Item.Properties().group(AlloysSmelter.ALLOYS));
+    public static final Item TUNGSTANTIUM_SWORD = new AlloysSwordItem(ModMaterials.TUNGSTANTIUM, 3, -2.4f, 5, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final AxeItem TUNGSTANTIUM_AXE = new AxeItem(ModMaterials.TUNGSTANTIUM, 6f, -3.1f, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final ShovelItem TUNGSTANTIUM_SHOVEL = new ShovelItem(ModMaterials.TUNGSTANTIUM, 1.5f, -3f, new Item.Properties().group(AlloysSmelter.ALLOYS));
     public static final HoeItem TUNGSTANTIUM_HOE = new HoeItem(ModMaterials.TUNGSTANTIUM,-3, -2.0F, new Item.Properties().group(AlloysSmelter.ALLOYS));
