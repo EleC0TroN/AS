@@ -28,12 +28,12 @@ public class ModConfigs {
             public Balance(ForgeConfigSpec.Builder builder) {
                 builder.push(name);
                 dev_mode = builder
-                        .comment("All Items available")
+                        .comment("Alloys without installing mods")
                         .define("dev_mode", false);
+
                 melting_core_fuel = builder
                         .comment("Molten Core Burn Time")
                         .defineInRange("melting_core_fuel", 2000, 0, 20000);
-
 
                 builder.pop();
             }

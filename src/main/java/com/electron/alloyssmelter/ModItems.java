@@ -6,6 +6,8 @@ import com.electron.alloyssmelter.items.MeltingCoreItem;
 import com.electron.alloyssmelter.items.ModMaterials;
 import net.minecraft.item.*;
 import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.common.Tags;
+import net.minecraftforge.common.data.ForgeItemTagsProvider;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -16,7 +18,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModItems {
 
-    public static final Item MELTING_CORE = new MeltingCoreItem(new Item.Properties().group(ItemGroup.MISC));
+    public static final Item MELTING_CORE = new MeltingCoreItem(new Item.Properties().group(null));
 
     public static final Item BRONZE_INGOT = new AlloysIngotItem(new Item.Properties().group(AlloysSmelter.ALLOYS), 0);
     public static final Item BRONZE_SWORD = new AlloysSwordItem(ModMaterials.BRONZE, 3, -2.4f, 0, new Item.Properties().group(AlloysSmelter.ALLOYS));
@@ -95,7 +97,7 @@ public class ModItems {
             registerItem(NETHERENDIUM_PICKAXE, "netherendium_pickaxe");
 
         }
-        if (ModList.get().getModContainerById("simpleores").isPresent() || ModList.get().getModContainerById("flux").isPresent() || ModList.get().getModContainerById("bno").isPresent() || i) {
+        if (ModList.get().getModContainerById("simpleores").isPresent() || ModList.get().getModContainerById("immersiveengineering").isPresent() || ModList.get().getModContainerById("flux").isPresent() || ModList.get().getModContainerById("bno").isPresent() || i) {
             registerItem(ROSE_GOLD_INGOT, "rose_gold_ingot");
             registerItem(ROSE_GOLD_SWORD, "rose_gold_sword");
             registerItem(ROSE_GOLD_AXE, "rose_gold_axe");

@@ -241,7 +241,7 @@ public abstract class AbstractSmelterTileEntity extends LockableTileEntity imple
             ItemStack itemstack3 = this.items.get(3);
             if (itemstack2.isEmpty()) {
                 this.items.set(2, itemstack1.copy());
-                itemstack2.grow(itemstack1.getCount() + 1);
+                itemstack2.grow(2);
             } else if (itemstack2.getItem() == itemstack1.getItem()) {
                 itemstack2.grow(itemstack1.getCount() + 1);
             }
@@ -249,7 +249,6 @@ public abstract class AbstractSmelterTileEntity extends LockableTileEntity imple
             if (!this.world.isRemote) {
                 this.setRecipeUsed(recipe);
             }
-
 
             itemstack3.shrink(1);
             itemstack.shrink(1);
